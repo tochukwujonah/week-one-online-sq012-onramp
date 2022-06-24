@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Billing Dashboard</title>
+  </head>
+  <body>
+    <main>
+        <!-- Sidebar -->
+      <aside>
+        <div class="side_bar">
+
+            <div class="user">
+                <img src="./img/Rectangle 3.png" alt="image of Alena">
+                <div class="avatar">
+                    <p>Ildiko Gaspar</p>
+                    <span>@igaspar</span>
+                </div>
+            </div>
+           
+            <div class="side_bar_list">
+                <div class="side_bar_item">
+                    <i class='bx bx-checkbox-square' ></i>
+                    <p>General</p>
+                </div>
+                <div class="side_bar_item">
+                    <i class='bx bx-lock'></i>
+                    <p>Password</p>
+                </div>
+                <div class="side_bar_item">
+                    <i class='bx bx-envelope'></i>
+                    <p>Invitations</p>
+                </div>
+                <div class="side_bar_item">
+                    <i class='bx bx-lock'></i>
+                    <p>Billing</p>
+                </div>
+                <div class="side_bar_item">
+                    <i class='bx bx-grid'></i>
+                    <p>Apps</p>
+                </div>
+            </div>
+
+            <div class="logout">
+                <i class='bx bx-exit'></i>
+                <p>Logout</p>
+            </div>
+            
+        </div>
+      </aside>
+
+      <!-- Body of the dashboard -->
+      <section class="dash_container">
+        <h2 class="billing">Billing</h2>
+        <div class="container_body">
+            
+
+            <div class="container_left">
+                <h4>Order History</h4>
+                <p class="manage_billing">Manage billing information and view receipts</p>
+
+                <div class="details">
+
+                    <div class="details-head">
+                        <p>Date</p>
+                        <p>Type</p>
+                        <p>Receipt</p>
+                    </div>
+
+                    <div class="full_details">
+                        <div class="list_detail">
+                            <p>Nov. 05, 2021</p>
+                            <p>Pro Annual</p>
+                            <button>Download</button>
+                        </div>
+
+                        <div class="list_detail">
+                            <p>Oct. 21, 2021</p>
+                            <p>Pro Portfolio</p>
+                            <button>Download</button>
+                        </div>
+
+                        <div class="list_detail">
+                            <p>July 10, 2022</p>
+                            <p>Sponsored Post</p>
+                            <button>Download</button>
+                        </div>
+
+                        <div class="list_detail">
+                            <p>April 21, 2021</p>
+                            <p>Sponsored Post</p>
+                            <button>Download</button>
+                        </div>
+                        
+                    </div>
+                    <p class="load_more">Load more</p>
+
+                    <div class="payment_method">
+                        <h4 class="payment"> Payment method</h4>
+                        <p class="manage_billing">Manage billing information and view receipts</p>
+
+                        <div class="card_details" >
+
+                            <div class="visa">
+                                <img src="./img/visa.svg" alt="visa card">
+                                <p>Visa ending in 2255</p>
+                            </div>
+
+                            <button>Remove</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <p class="plan">Your plan</p>
+                <h2>Pro Annual</h2>
+
+                <p class="renew">Renews on  Nov. 2021</p>
+
+                <button class="btn">Cancel subscription</button>
+            </div>
+        </div>
+        
+
+      </section>
+
+    </main>
+  </body>
+</html>
