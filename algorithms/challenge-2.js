@@ -1,6 +1,14 @@
 function filterArray(arr) {
+
+    var filt = arr.filter(function(x) {
+        if (typeof(x) === 'number')
+          return x;
+      });
+      return filt;
  
 }
+
+console.log(filterArray(["$%^", 567, "&&&"]) )
 
 // module.exports = filterArray
 
